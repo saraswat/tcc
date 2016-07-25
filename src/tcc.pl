@@ -8,7 +8,7 @@
 
 :- op(1100, xfy, '::').
 :- op(975, fy, [next, always]).
-:- op(950, xfy, [ '->' , '~>']). % Note: ~> is weak else. 
+:- op(950, xfy, [ '->' , '~>']). % Note: -> is read as "then" and ~> as "elseNext" 
 :- op(150, xfy, ['^', '$']).
 :- use_module(library(ordsets)).
 :- use_module(library(lists)).
